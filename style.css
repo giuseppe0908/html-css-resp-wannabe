@@ -72,7 +72,85 @@ img {
   clear: both;
 }
 
-/*--- RESPONSIVE ---*/
+/*--- RESPONSIVE  TABLET---*/
+@media screen and (min-width: 768px) {
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+  }
+  #lezioni{
+    margin-top:0px;
+    background-color: #F2F2CD;
+  }
+  .right{
+    margin-bottom: 20px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+  #steps{
+    background-color: white;
+  }
+  #why{
+    background-color: #F2F2CD;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 0;
+  }
+  .third{
+    margin-bottom: 20px;
+  }
+  
+  img{
+    height: 150px;
+  }
+
+  .row{
+    margin-top: 0;
+    width: 90%;
+  }
+
+  .left > img{
+    margin-top: 30px;
+  }
+  .right > img{
+    margin-top: 30px;
+  }
+  .central > img{
+    margin-top: 30px;
+  }
+  .first > img{
+    margin-top: 30px;
+  }
+  .second > img{
+    margin-top: 30px;
+  }
+  .third > img{
+    margin-top: 30px;
+  }
+  h1{
+    padding-top: 30px;
+  }
+  hr{
+    color: black;
+    border-bottom: 2px solid black;
+  }
+}
+
+/*--- RESPONSIVE  SMARTPHONE---*/
 
 @media screen and (min-width: 420px) {
 *{
@@ -86,20 +164,35 @@ img {
   float: none;
   width: 100%;
 }
-#lezioni .row{
+#lezioni{
   margin-top:0px;
-  background-color: yellow;
-
+  background-color: #F2F2CD;
 }
+.right{
+  margin-bottom: 20px;
+}
+
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
   float: none;
   width: 100%;
 }
-#why .row{
-  background-color: yellow;
+#steps{
+  background-color: white;
 }
+#why{
+  background-color: #F2F2CD;
+}
+#why .row>.first,
+#why .row>.second,
+#why .row>.third{
+  margin-top: 0;
+}
+.third{
+  margin-bottom: 20px;
+}
+
 img{
   height: 150px;
 }
@@ -108,7 +201,9 @@ img{
 } */
 .row{
   margin-top: 0;
+  width: 90%;
 }
+
 .left > img{
   margin-top: 30px;
 }
@@ -116,5 +211,21 @@ img{
   margin-top: 30px;
 }
 .central > img{
-  margin-top: 30px
+  margin-top: 30px;
+}
+.first > img{
+  margin-top: 30px;
+}
+.second > img{
+  margin-top: 30px;
+}
+.third > img{
+  margin-top: 30px;
+}
+h1{
+  padding-top: 30px;
+}
+hr{
+  color: black;
+  border-bottom: 2px solid black;
 }
